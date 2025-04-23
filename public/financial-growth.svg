@@ -1,0 +1,56 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="white" fill-opacity="0.01"/>
+  
+  <!-- Grid Lines -->
+  <g opacity="0.2" stroke="#CCCCCC" stroke-width="1">
+    <line x1="100" y1="500" x2="700" y2="500" />
+    <line x1="100" y1="400" x2="700" y2="400" />
+    <line x1="100" y1="300" x2="700" y2="300" />
+    <line x1="100" y1="200" x2="700" y2="200" />
+    <line x1="100" y1="100" x2="700" y2="100" />
+    
+    <line x1="100" y1="100" x2="100" y2="500" />
+    <line x1="220" y1="100" x2="220" y2="500" />
+    <line x1="340" y1="100" x2="340" y2="500" />
+    <line x1="460" y1="100" x2="460" y2="500" />
+    <line x1="580" y1="100" x2="580" y2="500" />
+    <line x1="700" y1="100" x2="700" y2="500" />
+  </g>
+  
+  <!-- Axes -->
+  <line x1="100" y1="500" x2="700" y2="500" stroke="#333333" stroke-width="3" />
+  <line x1="100" y1="100" x2="100" y2="500" stroke="#333333" stroke-width="3" />
+  
+  <!-- Growth Bars -->
+  <rect x="130" y="420" width="60" height="80" rx="4" fill="#E6F7FF" stroke="#0070F3" stroke-width="2"/>
+  <rect x="250" y="380" width="60" height="120" rx="4" fill="#E6F7FF" stroke="#0070F3" stroke-width="2"/>
+  <rect x="370" y="320" width="60" height="180" rx="4" fill="#E6F7FF" stroke="#0070F3" stroke-width="2"/>
+  <rect x="490" y="240" width="60" height="260" rx="4" fill="#E6F7FF" stroke="#0070F3" stroke-width="2"/>
+  <rect x="610" y="140" width="60" height="360" rx="4" fill="#E6F7FF" stroke="#0070F3" stroke-width="2"/>
+  
+  <!-- Growth Line -->
+  <path d="M160 420 L280 380 L400 320 L520 240 L640 140" stroke="#0070F3" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Data Points -->
+  <circle cx="160" cy="420" r="8" fill="#0070F3"/>
+  <circle cx="280" cy="380" r="8" fill="#0070F3"/>
+  <circle cx="400" cy="320" r="8" fill="#0070F3"/>
+  <circle cx="520" cy="240" r="8" fill="#0070F3"/>
+  <circle cx="640" cy="140" r="8" fill="#0070F3"/>
+  
+  <!-- Dollar Sign -->
+  <path d="M400 70 M390 60 C390 55, 395 50, 400 50 C405 50, 410 55, 410 60 C410 70, 390 70, 390 80 C390 85, 395 90, 400 90 C405 90, 410 85, 410 80 M400 40 L400 100" 
+        stroke="#0070F3" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Financial Icons -->
+  <circle cx="220" cy="550" r="15" fill="#E6F7FF" stroke="#0070F3" stroke-width="2"/>
+  <path d="M215 550 L225 550 M220 545 L220 555" stroke="#0070F3" stroke-width="2" stroke-linecap="round"/>
+  
+  <circle cx="400" cy="550" r="15" fill="#E6F7FF" stroke="#0070F3" stroke-width="2"/>
+  <path d="M395 550 C395 547, 397 545, 400 545 C403 545, 405 547, 405 550 C405 555, 395 555, 395 558 C395 560, 397 562, 400 562 C403 562, 405 560, 405 558" 
+        stroke="#0070F3" stroke-width="2" stroke-linecap="round"/>
+  
+  <circle cx="580" cy="550" r="15" fill="#E6F7FF" stroke="#0070F3" stroke-width="2"/>
+  <rect x="575" y="545" width="10" height="10" rx="1" stroke="#0070F3" stroke-width="2" fill="none"/>
+</svg> 
